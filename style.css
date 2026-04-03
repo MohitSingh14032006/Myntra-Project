@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    padding-top: 15px;
+}
+header{
+    width: 100%;
+    padding: 15px 50px;
+    display: flex; 
+    gap: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+header .header-left{
+    display: flex;
+    gap: 70px;
+}
+header .header-left .logo{
+    width: 40px;
+    height: 39px;
+}
+header .header-left .logo img{
+    width: 100%;
+    height: 100%;
+}
+header .header-left>nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+header .header-left>nav>ul{
+    display: flex;
+    gap: 15px;
+}
+header .header-left nav>ul>li {
+    padding: 10px 5px;
+}
+header .header-left nav ul li a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .header-left nav ul li a sup{
+    text-transform: uppercase;
+    color: red;
+}
+header .header-right{
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+}
+header .header-right form{
+    display: flex;
+    gap: 20px;
+}
+header .header-right form button{
+    background: transparent;
+    border: none;
+} 
+header .header-right form button i{
+    color: grey;
+}
+header .header-right form input{
+    width: 500px;
+    padding-left: 5px;
+    border: none;
+}
+header .header-right form input:focus{
+    outline: 0;
+}
+header .header-right .iconProfile{
+    display: flex;
+    gap: 30px;
+}
+header .header-right .iconProfile .iconItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .header-right .iconProfile .iconItems span{
+    font-size: 12px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    padding: 0px 30px;
+}
+.container img{
+    flex-grow: 1;
+    width: 100%;
+}
+.container .left {
+    flex-grow: 1;
+}
+.container .right {
+    flex-grow: 1;
+}
+.container .fashionPartners{
+    flex-grow: 1;
+}
+.categoryItems{
+    width: 100%;
+}
+.categoryItems .row{
+    display: flex;
+    width: 100%;
+}
+.categoryItems .row img{
+    width: 16.5%;
+}
+footer{
+    max-width: 1080px;
+    margin: 50px auto;
+}
+footer .footerUpper{
+    display: flex;
+    gap: 50px;
+}
+footer .footerUpper h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+footer .footerUpper ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .footerUpper ul li{
+    font-size: 12px;    
+    color: grey;
+}
+footer .footerUpper ul li:last-child{
+    margin-bottom: 20px;
+}
+footer .footerUpper .block3 .download{
+    display: flex;
+    gap: 20px;
+}
+footer .footerUpper .block3 .download img{
+    width: 150px;
+}
+footer .footerUpper .block3 .socialMediaIcons{
+    display: flex;
+    gap: 10px;
+}
+footer .footerUpper .block3 .socialMediaIcons img{
+    width: 25px;
+}
+footer .footerUpper .block4{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+footer .footerUpper .block4 .firstRow{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+footer .footerUpper .block4 .firstRow img{
+    width: 50px;
+}
+footer .footerUpper .block4 .firstRow p span{
+    color: grey;
+}
+footer .footerUpper .block4 .secondRow{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+footer .footerUpper .block4 .secondRow img{
+    width: 50px;
+}
+footer .footerUpper .block4 .secondRow p span{
+    color: grey;
+}
+footer .footerLower{
+    font-size: 15px;
+    color: grey;
+}
+footer .footerLower h5{
+    color: black;
+}
+footer .footerLower .popularSearches{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer .footerLower .popularSearches h5{
+    text-transform: uppercase;
+}
+footer .footerLower .popularSearches p{
+    line-height: 20px;
+}
+footer .footerLower .popularSearches .subFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+footer .footerLower .popularSearches .subFooter p span{
+    color: rgb(44, 41, 218);
+    font-weight: bold;
+}
+footer .footerLower .address{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+footer .footerLower .address .add{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footerLower .address .add p:nth-child(2){
+    text-align: right;
+    align-self: flex-end;
+}
+footer .footerLower .address p{
+    line-height: 20px;
+}
+footer .footerLower .address .right{
+    text-align: right;
+}
+footer .footerLower .address p span{
+    color: rgb(44, 41, 218);
+    font-weight: bold;
+}
+footer .footerLower .myntraDescription p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+footer .footerLower .bestShoppingSite h5{
+    margin-bottom: 10px;
+}
+footer .footerLower .bestShoppingSite p{
+    margin-bottom: 15px;
+}
+footer .footerLower .bestShoppingSite ul{
+    margin-left: 30px;
+}
+footer .footerLower .bestShoppingSite ul li{
+    margin-bottom: 10px;
+}
+footer .footerLower .fashion h5{
+    margin-bottom: 10px;
+}
+footer .footerLower .fashion p{
+    margin-bottom: 10px;
+}
+footer .footerLower .myntraInsider h5{
+    margin-bottom: 10px;
+}
+footer .footerLower .myntraInsider p{
+    margin-bottom: 10px;
+}
+footer .footerLower .myntraInsider ul{
+    margin-left: 20px;
+}
+footer .footerLower .myntraInsider ul li{
+    margin-bottom: 5px;
+    list-style: disc;
+}
+footer .footerLower .myntraInsider ul:last-child{
+    margin-bottom: 40px;
+}
+footer .footerLower .myntraStudio h5{
+    margin-bottom: 10px;
+}
+footer .footerLower .myntraStudio p{
+    margin-bottom: 10px;
+}
+footer .footerLower .myntraStudio ul{
+    margin-left: 20px;
+}
+footer .footerLower .myntraStudio ul li{
+    margin-bottom: 10px;
+}
+footer .footerLower .myntraApp h5{
+    margin-bottom: 10px;
+}
+footer .footerLower .myntraApp p{
+    margin-bottom: 30px;
+}
+footer .footerLower .historyMyntra {
+    margin-bottom: 30px;
+}
+footer .footerLower .historyMyntra h5{
+    margin-bottom: 10px;
+}
+footer .footerLower .historyMyntra p{
+    margin-bottom: 10px;
+}
+footer .footerLower .lastDescription h5{
+    margin-bottom: 10px;
+}
+footer .footerLower .lastDescription p{
+    margin-bottom: 10px;
+}
+.megaMenu1{
+    width: 1120px;
+    margin: 0px auto;
+    display: none;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    background-color: white;
+    padding: 25px 15px;
+}
+.megaMenu1 h5{
+    color: #EE5F73;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.megaMenu1 ul>li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.megaMenu1 ul>li:hover{
+    font-weight: bold;
+}
+header .header-left nav>ul>li:hover .megaMenu1{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+.megaMenu2{
+    width: 1120px;
+    margin: 0px auto;
+    display: none;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    background-color: white;
+    padding: 25px 15px;
+}
+.megaMenu2 h5{
+    color: #EE5F73;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.megaMenu2 ul>li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.megaMenu2 ul>li:hover{
+    font-weight: bold;
+}
+header .header-left nav>ul>li:hover .megaMenu2{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+.megaMenu3{
+    width: 1120px;
+    margin: 0px auto;
+    display: none;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    background-color: white;
+    padding: 25px 15px;
+}
+.megaMenu3 h5{
+    color: #F57F10;#F2C210
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.megaMenu3 ul>li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.megaMenu3 ul>li:hover{
+    font-weight: bold;
+}
+header .header-left nav>ul>li:hover .megaMenu3{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+.megaMenu4{
+    width: 1120px;
+    margin: 0px auto;
+    display: none;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    background-color: white;
+    padding: 25px 15px;
+}
+.megaMenu4 h5{
+    color: #F2C210;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.megaMenu4 ul>li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.megaMenu4 ul>li:hover{
+    font-weight: bold;
+}
+header .header-left nav>ul>li:hover .megaMenu4{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+.megaMenu5{
+    width: 1120px;
+    margin: 0px auto;
+    display: none;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    background-color: white;
+    padding: 25px 15px;
+}
+.megaMenu5 h5{
+    color: #0DB7AF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.megaMenu5 ul>li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.megaMenu5 ul>li:hover{
+    font-weight: bold;
+}
+header .header-left nav>ul>li:hover .megaMenu5{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+.megaMenu6{
+    width: 1120px;
+    margin: 0px auto;
+    display: none;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    background-color: white;
+    padding: 25px 15px;
+}
+.megaMenu6 h5{
+    color: #0DB7AF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.megaMenu6 ul>li{
+    font-size: 13px;
+    line-height: 20px;
+}
+.megaMenu6 ul>li:hover{
+    font-weight: bold;
+}
+header .header-left nav>ul>li:hover .megaMenu6{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+.megaMenu7{  
+    display: none;  
+    width: 450px;
+    padding: 10px 5px;
+    text-align: center;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 200px;
+}
+.megaMenu7 .upperPart p{
+    color: darkgray;
+}
+.megaMenu7 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+}
+header .header-left nav>ul>li:hover .megaMenu7{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
